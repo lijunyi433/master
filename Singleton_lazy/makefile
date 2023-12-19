@@ -3,7 +3,7 @@ prom = do
 obj = singleton.o
 INCLUDE = -I ./
 OPTION = -Wall -Werror
-CPP_FLAGS = '-std=c++11'
+CPP_FLAGS = '-std=c++17'
 
 $(prom):$(obj)
 	@$(CC) $(CPP_FLAGS) -o $@ $<
